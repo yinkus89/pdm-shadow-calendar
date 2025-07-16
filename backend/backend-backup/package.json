@@ -1,0 +1,22 @@
+{
+  "name": "pdm-shadow-calendar",
+  "version": "1.0.0",
+  "description": "MVP tool to parse shadow-calendar logs and map them to ERP tasks",
+  "type": "module",
+  "main": "shadow-hours-mvp.js",
+  "scripts": {
+    "start": "node shadow-hours-mvp.js sample_log.txt",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^6.0.0",
+    "express": "^5.1.0",
+    "fast-fuzzy": "^1.12.0",
+    "readline-sync": "^1.4.10"
+  }
+}
